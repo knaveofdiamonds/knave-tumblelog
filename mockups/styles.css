@@ -2,20 +2,80 @@ body {
   font-family: arial;
 }
 
+.date { 
+  font-family: georgia;
+  text-align: center;
+  color: #988;
+  position: absolute;
+  left: 29.5em;
+  border-top: 1px double #ccc;
+  border-bottom: 3px double #ccc;
+  padding-bottom: 1em;
+}
+
+.date .day, .date .month { 
+  display: block;
+}
+
+.date .day { 
+  font-size: 2em;
+}
+
+.date .day .units {
+  font-size: 0.7em;
+}
+ 
+.date .month { 
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-top: 0.2em;
+  font-size: 0.7em;
+}
+
 #wrapper {
-    background-color: #f4f1f1;
-    width: 26em;
+    width: 28em;
     margin: 0px auto;
+}
+
+#wrapper #main_content {
+    background-color: #f4f1f1;
     padding: 1em;
+    position:relative;
+}
+
+#post_navigation a { 
+  border-top: 0.2em solid #fff;
+}
+
+#post_navigation a { 
+  background-color: #ede2e2;
+  text-decoration: underline;
+
+  padding: 0.5em 1em 2.5em 1em;
+  display: block;
+  width: 11.9em;
+}
+
+#post_navigation a:hover { 
+  color: #fff;
+  text-decoration: none;
+  background-color: #b00;
+}
+
+#post_navigation a#nav_earlier { 
+  float: right;
+  text-align: right;
+  border-left: 0.1em solid #fff;
+}
+
+#post_navigation a#nav_later { 
+  float: left;
+  border-right: 0.1em solid #fff;
 }
 
 .post {
   line-height: 1.3em;
   margin: 0em 0em 2em 0em;
-}
-
-p {
-
 }
 
 a {
@@ -68,31 +128,6 @@ cite {
 cite:before {
     content: '— ';
 }
-
-/*
-blockquote:before {
-  content: '“';
-  display: block;
-  font-size: 7em;
-  font-style: normal;
-  margin-bottom: -100px;
-  padding-top: 100px;
-  margin-left: -115px;
-
-}
-
-blockquote:after {
-  content: '“';
-  display: block;
-  font-size: 10em;
-  font-style: normal;
-  margin-top: -100px;
-  padding-botom: 100px;
-  margin-right: -115px;
-
-}
-*/
-
 
 .tumblr_link h1 {
     font-size: 1.5em;
