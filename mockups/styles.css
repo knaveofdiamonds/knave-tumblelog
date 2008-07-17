@@ -1,0 +1,137 @@
+body {
+  font-family: arial;
+}
+
+#wrapper {
+    background-color: #f4f1f1;
+    width: 26em;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+.post {
+  line-height: 1.3em;
+  margin: 0em 0em 2em 0em;
+}
+
+p {
+
+}
+
+a {
+  color: #b00;
+}
+
+a:visited {
+  color: #604;
+}
+
+.tumblr_regular {
+  font-size: 0.75em;
+}
+
+.tumblr_regular p {
+  text-align: justify;
+}
+
+.tumblr_link * {
+
+}
+
+blockquote {
+  font-family: georgia;
+  font-style: italic;
+  line-height: 1.3em;
+}
+
+.tumblr_quote blockquote {
+  margin: 0px 0px 6px 0px;
+}
+
+.tumblr_quote blockquote.long, .tumblr_quote blockquote.medium {
+  font-size: 0.85em;
+}
+
+.tumblr_quote blockquote.short {
+  font-size: 2em;
+  text-align: right;
+  line-height: 1em;
+}
+
+cite {
+    display: block;
+    font-style: normal;
+  font-size: 0.85em;
+    text-align: right;
+}
+
+cite:before {
+    content: '— ';
+}
+
+/*
+blockquote:before {
+  content: '“';
+  display: block;
+  font-size: 7em;
+  font-style: normal;
+  margin-bottom: -100px;
+  padding-top: 100px;
+  margin-left: -115px;
+
+}
+
+blockquote:after {
+  content: '“';
+  display: block;
+  font-size: 10em;
+  font-style: normal;
+  margin-top: -100px;
+  padding-botom: 100px;
+  margin-right: -115px;
+
+}
+*/
+
+
+.tumblr_link h1 {
+    font-size: 1.5em;
+    font-family: georgia;
+    font-weight: normal;
+/*  text-indent: -1em;  
+  margin: 0px 0px 0px 1em; */
+    display: inline;
+}
+
+.tumblr_link .description:before {
+  content: '»';
+  color: #666;
+  margin: 0em 0.3em;
+}
+
+.tumblr_link div.description {
+    display: inline;
+}
+
+.tumblr_link h1 a {
+    line-height: 1em;
+}
+
+.tumblr_image .frame {
+  padding: 0.4em 0em 0.5em 0em;
+  background-color: #500;
+  margin: 0px auto;
+  text-align: center;
+}
+.tumblr_image .frame img {
+  border: 1px solid #fff;
+
+}
+
+.tumblr_image .caption {
+    background-color: #fff;
+    border-bottom: 2px solid #dfdfdf;
+    font-size: 0.7em;
+    padding: 1em;
+    text-align: right;
+}
